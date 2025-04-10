@@ -2,7 +2,7 @@
 if(isset($_POST['btn_add'])){
     if(empty($_POST['post_detail'])){
         // XỬ LÝ THÔNG BÁO LỖI
-        echo "hii";
+        echo "Lưu";
     } else {
         $post_detail = $_POST['post_detail'];
         echo $post_detail;
